@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Axie Energy Calculator</title>
+	<link rel="icon" type="image/png" href="images/love-potion.png">
+	<link rel=stylesheet href="css/style.css" type="text/css" media=screen>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<section class="main-container">
+			<button class="new-game-button">New Game</button>
+			<div class="field-container">
+				<p class="field-title">En. <strong>used</strong></p>
+				<div class="field-inputs">
+					<button class="minus-button"></button>
+					<input type="number" value="0" class="energy-used-val">
+					<button class="plus-button"></button>
+				</div>
+			</div>
+			<div class="field-container">
+				<p class="field-title">En. <strong>gain</strong></p>
+				<div class="field-inputs">
+					<button class="minus-button"></button>
+					<input type="number" value="0" class="energy-gain-val">
+					<button class="plus-button"></button>
+				</div>
+			</div>
+			<div class="field-container">
+				<p class="field-title">En. <strong>loss</strong></p>
+				<div class="field-inputs">
+					<button class="minus-button"></button>
+					<input type="number" value="0" class="energy-loss-val">
+					<button class="plus-button"></button>
+				</div>
+			</div>
+			<div class="field-container current-energy">
+				<p class="field-title">Current energy</p>
+				<div class="field-inputs">
+					<input type="number" value="3" readonly class="current-energy-val">
+				</div>
+			</div>
+			<button class="end-turn-button">End Turn</button>
+			
+		</section>
+	</body>
+</html>
