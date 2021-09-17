@@ -97,6 +97,21 @@ button:hover{
 		height: 30px;
 	}
 }
+button {
+	transition: all 0.3s ease-in-out;
+}
+button:hover {
+	opacity: 90%;
+	transform: scale(1.2, 1.2);
+}
+button:active {
+	box-shadow: rgb(47 63 70 / 100%) 0px 0px 40px -10px;
+	opacity: 90%;
+	transform: scale(1.2, 1.2);
+}
+.field-inputs button {
+	border-radius: 100%;
+}
 .field-inputs .plus-button{
 	background: none;
 	background-image: url(../images/plus.png);
@@ -104,8 +119,8 @@ button:hover{
 	height: 50px;
 	background-size: contain;
 	background-position: center;
-	border: none;
 	background-repeat: no-repeat;
+	border: none;
 }
 @media (max-width: 425px) {
 	.field-inputs .plus-button {
